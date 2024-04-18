@@ -64,6 +64,18 @@ export default async function products(app, options) {
         config: {
             requireAuthentication: true,
             isAdmin: true
+        },
+        schema: {
+            body: {
+                type: 'object',
+                properties: {
+                    id: { type: 'string' },
+                    name: { type: 'string' },
+                    qtd: { type: 'integer' },
+                    cat_name: {type: 'string'}
+                },
+                required: ['name', 'qtd', 'cat_name']
+            }
         }
     }, async (request, reply) => {
         let id =  request.params.id;
@@ -77,6 +89,6 @@ export default async function products(app, options) {
             }
         });
         
-        return reply.code(204).send();;
+        return reply.code(204).send();
     });
 }
