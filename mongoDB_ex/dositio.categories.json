@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "661b258b2e32bbfb09bc4418"
+  },
+  "name": "Fruta",
+  "img_url": "https://static.itdg.com.br/images/622-auto/ed4c4a501ed88775e87f279b2ced50c6/frutas-mais-saudaveis.jpg"
+},
+{
+  "_id": {
+    "$oid": "661b25a02e32bbfb09bc4419"
+  },
+  "name": "Verdura",
+  "img_url": "https://content.paodeacucar.com/wp-content/uploads/2020/01/frutas-e-verduras-de-janeiro-capa.jpg"
+},
+{
+  "_id": {
+    "$oid": "661b42267bb6498a21b225b1"
+  },
+  "name": "Legume",
+  "img_url": "https://static.significados.com.br/foto/verduras-e-legumes-0.jpg"
+},
+{
+  "_id": {
+    "$oid": "661c41ec0894a1e6b78ee3db"
+  },
+  "name": "Grão",
+  "img_url": "https://blog.totalpass.com.br/wp-content/uploads/2022/08/deixar-de-molho-os-graos.jpg"
+},
+{
+  "_id": {
+    "$oid": "661d7c21292d7801671be032"
+  },
+  "name": "Cerais",
+  "img_url": "https://www.saboresajinomoto.com.br/uploads/images/posts/Graos_1400x675.jpg"
+},
+{
+  "_id": {
+    "$oid": "661c6f9d3472c7e357fda4f4"
+  },
+  "name": "Tuberculo",
+  "img_url": "https://www.gestaoeducacional.com.br/wp-content/uploads/2019/01/tuberculos.jpg"
+}]

@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "661b28022e32bbfb09bc441d"
+  },
+  "name": "Batata",
+  "qtd": 38,
+  "cat_name": "661b42267bb6498a21b225b1"
+},
+{
+  "_id": {
+    "$oid": "661b294df71c851240b1e19b"
+  },
+  "name": "Manga",
+  "qtd": 10,
+  "cat_name": "661b258b2e32bbfb09bc4418"
+},
+{
+  "_id": {
+    "$oid": "661b39fdd01db76a941fd982"
+  },
+  "name": "Cenoura",
+  "qtd": 18,
+  "cat_name": "661b42267bb6498a21b225b1"
+},
+{
+  "_id": {
+    "$oid": "661b3c1ca7ebc1c361149399"
+  },
+  "name": "Tangerina",
+  "qtd": 32,
+  "cat_name": null
+},
+{
+  "_id": {
+    "$oid": "661b479c2e32bbfb09bc442a"
+  },
+  "name": "Feijão",
+  "qtd": 5,
+  "cat_name": "661b47d12e32bbfb09bc442c"
+},
+{
+  "_id": {
+    "$oid": "661c7929e56a28f7416b97a0"
+  },
+  "name": "Morango",
+  "qtd": 15,
+  "cat_name": "661b258b2e32bbfb09bc4418"
+},
+{
+  "_id": {
+    "$oid": "661d7c21292d7801671be033"
+  },
+  "name": "Cajá",
+  "qtd": 24,
+  "cat_name": "661b258b2e32bbfb09bc4418"
+},
+{
+  "_id": {
+    "$oid": "661d79dd34cea387977be591"
+  },
+  "name": "Espinafre",
+  "qtd": 62,
+  "cat_name": "661b25a02e32bbfb09bc4419"
+}]
