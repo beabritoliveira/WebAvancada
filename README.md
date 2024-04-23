@@ -1,6 +1,6 @@
 ## Programação Avançada para Web
 -----------------------
-#### Alunas: Beatriz Brito Oliveira
+#### Aluna: Beatriz Brito Oliveira
 #### Professor: Wagner de Andrade Perin
 #### Turma: CC5MB
 -------------------------
