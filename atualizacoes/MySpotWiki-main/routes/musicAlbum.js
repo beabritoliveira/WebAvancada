@@ -59,8 +59,7 @@ export default async function musicAlbum(app, options){
 
     app.delete('/musicAlbum/:id',
         {config: 
-            {neededAuthentication: true,
-                checkNonExistence: true}},
+            {checkNonExistence: true}},
         async(request, reply) =>{
             const id = request.params.id;
             await album.deleteOne({_id: new app.mongo.ObjectId(id)});
