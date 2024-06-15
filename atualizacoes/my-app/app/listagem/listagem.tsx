@@ -25,9 +25,22 @@ export default function ProductPage() {
     fetchData();
   }, []);
 
-  const handleCategorySearch = () => {
-    router.push('/categories');
-  };
+  async function deletingData(id : string) {
+    console.log(id)
+    try {
+      const response = await fetch(`http://127.0.0.1:3000/musicAlbum/${id}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        referrerPolicy: 'no-referrer',
+        cache: 'no-store'
+      });
+      window.location.reload();
+    } catch (error) {
+      console.error('Erro ao buscar dados do servidor:', error);
+    }
+  }
 
   return (
     <main className=" h-screen bg-violet-200">
@@ -65,6 +78,10 @@ export default function ProductPage() {
                   height={200}
                   className="w-full h-36  object-cover rounded" 
                 />
+                <div className='flex justify-center pt-8 gap-5'>
+                  <button  className='cursor-pointer hover:bg-indigo-950 hover:scale-105 hover:shadow-lg hover:text-white font-medium bg-violet-200 rounded-full p-3 '>Editar Album</button>
+                  <button onClick={() => {deletingData(product._id)}} className='cursor-pointer hover:bg-indigo-950 hover:scale-105 hover:shadow-lg hover:text-white font-medium bg-violet-200 rounded-full p-3 '>Excluir Album</button>
+                </div>
               </div>
             ))}
           </div>
