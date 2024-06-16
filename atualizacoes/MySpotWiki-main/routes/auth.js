@@ -11,14 +11,17 @@ export default async function auth(app, options) {
                 properties: {
                     _id: { type: 'string' },
                     username: { type: 'string' },
-                    email: {type: 'string'}
+                    email: {type: 'string'},
+                    password: {type: 'string'},
                 },
-                required: ['username', 'email']
             }
         }
     }, async (req, rep) => {
         let user = req.body;
-        let result = await usuar.findOne({email: user.email , username: user.username})
+        delete user.password;
+        let result = await usuar.findOne({username: user.username}) 
+        if(!result) 
+            result = await usuar.findOne({email: user.username})
         if (result)
             return {
                 'x-access-token': app.jwt.sign(user)
