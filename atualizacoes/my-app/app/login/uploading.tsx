@@ -11,10 +11,6 @@ export function Login (){
     const {register, handleSubmit} = useForm<SignIdData>();
     const { login, authError } = useContext(AuthContext);
 
-    console.log(useForm<SignIdData>());
-    console.log(register);
-    console.log(handleSubmit);
-
     const handleLogin = async (data : SignIdData) => {
         await login(data);
     }
@@ -31,24 +27,24 @@ export function Login (){
                         className='block pb-3 rounded-lg place-self-center'
                         alt='Screenshots of the dashboard project showing mobile version'
                 /> 
-                <label htmlFor="username" className="text-indigo-950">Usuário: </label>
+                <label htmlFor="username" className="text-indigo-950">User/E-mail: </label>
                 <input 
                     {...register('username')}
                     type="text" 
                     name='username' 
                     id='username' 
-                    placeholder="username" 
+                    placeholder="username / user@gmail.com" 
                     required 
                     className="border text-indigo-950 border-b-indigo-500 p-2"
                 />
                 <div className="pb-4"></div>
-                <label htmlFor="E-mail" className="text-indigo-950">E-mail: </label>
+                <label htmlFor="Senha" className="text-indigo-950">Senha: </label>
                 <input 
-                    {...register('email')}
-                    type="text" 
-                    name='email' 
-                    id='email' 
-                    placeholder="user@gmail.com" 
+                    {...register('password')}
+                    type="password" 
+                    name='password' 
+                    id='password' 
+                    placeholder="************" 
                     required 
                     className="border text-indigo-950 border-b-indigo-500 p-2"
                 />
