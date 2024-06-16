@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 
 export type SignIdData = {
     username: string;
-    email: string;
+    password: string;
     
 }
 
@@ -29,21 +29,17 @@ export default function AuthProvider( { children }: { children: React.ReactNode 
 
     const router = useRouter();
 
-    async function login({username, email} : SignIdData) {
-        console.log(username)
-        console.log(email)
+    async function login({username, password} : SignIdData) {
         let {'x-access-token': token} = await request<UserAuthentication>(`http://127.0.0.1:3000/auth`, 
         {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({username, email}),
+            body: JSON.stringify({username, password}),
             referrerPolicy: 'no-referrer',
             cache: 'no-store'
         });
-        
-        console.log(token)
 
         if(!token) setAuthError('Usuário ou senha inválidos. Verifique e tente novamente!');
         else{
