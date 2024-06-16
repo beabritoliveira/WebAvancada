@@ -42,17 +42,33 @@ export default async function musicAlbum(app, options){
             }
         },
         config:{
-            neededAuthentication: true,
             checkNonExistence: true
         }},
         async(request, reply) => {
             const id = request.params.id;
             const alb = request.body;
 
-            await album.updateOne(
-                {_id: new app.mongo.ObjectId(id)},
-                {$set: alb}
-            )
+            if(alb.name){
+                await album.updateOne({_id: new app.mongo.ObjectId(id)},
+                    {$set: {
+                        name: alb.name
+                    }})}
+            if(alb.artist){
+                await album.updateOne({_id: new app.mongo.ObjectId(id)},
+                    {$set: {
+                        artist: alb.artist
+                    }})}
+            if(alb.year){
+                await album.updateOne({_id: new app.mongo.ObjectId(id)},
+                    {$set: {
+                        year: alb.year
+                    }})}
+            if(alb.coverAlbum){
+                await album.updateOne({_id: new app.mongo.ObjectId(id)},
+                    {$set: {
+                        coverAlbum: alb.coverAlbum
+                    }})}
+
             return reply.code(204).send();
         }
     )
