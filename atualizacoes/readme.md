@@ -26,10 +26,19 @@ Em nossa disciplina, desenvolvemos APIs de backend utilizando Node.js/Fastify co
 #### Página de Listagem
 - Depois que o login é feito, o usuário é redirecionado para a nossa página principal, onde mostramos álbuns de música. Também é possível atualizar, cadastrar ou deletar esses itens.
 
-### Baixando Todas as Dependências
+### Baixando Todas as Dependências e atualizando Banco de dados
 Antes de iniciar nosso projeto, não se esqueça de instalar todas as dependências que nosso projeto precisa para funcionar corretamente. Para isso:
 1. Faça um `cd` para a pasta `MySpotWiki` e execute `npm install`.
 2. Faça um `cd` para a pasta `my-app` e execute `npm install`.
+
+Para visualizar da melhor forma nossa aplicação, atualize também os arquivos no Banco de dados
+
+### Para colocar os dados no servidor 
+No Projeto existe uma pasta chamada MongoDB_ex...nela existe os arquivos JSON criados para o nosso banco de dados, como utilizar:
+- Crie uma conexão com o Mongodb "mongodb://127.0.0.1/trabalhoB1"
+- Crie uma database com o nome "trabalhoB1"
+- Adicione as coleções que usamos "artist", "gmusic", "musicAlbum" e "user"
+- E importe os dados presentes na pasta MongoDB_ex
 
 Se esta etapa for feita da maneira correta, já podemos rodar nossa aplicação.
 
