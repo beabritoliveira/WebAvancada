@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "662461fff0283949d7540fe1"
+  },
+  "name": "Fearless (Taylor's Version)",
+  "artist": "Taylor Swift",
+  "genre_id": "66244c9cce6de20b1248ca39",
+  "year": "2021",
+  "coverAlbum": "https://m.media-amazon.com/images/I/71GJvkbzwdS._UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66246256f0283949d7540fe3"
+  },
+  "name": "Emails I can't send",
+  "artist": "Sabrina Carpenter",
+  "genre_id": "66244c9cce6de20b1248ca39",
+  "year": 2022,
+  "coverAlbum": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/7e/22/c47e22bf-0d2b-e211-815c-39c41428c6a4/23UMGIM16392.rgb.jpg/1200x1200bb.jpg"
+},
+{
+  "_id": {
+    "$oid": "662468c91da2db7a6c2ce1c5"
+  },
+  "name": "GUTS",
+  "artist": "Olivia Rodrigo",
+  "genre_id": "66244c9cce6de20b1248ca39",
+  "year": 2023,
+  "coverAlbum": "https://m.media-amazon.com/images/I/91rzIsvpwjL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "662468fe1da2db7a6c2ce1c6"
+  },
+  "name": "Sour",
+  "artist": "Olivia Rodrigo",
+  "genre_id": "66244c9cce6de20b1248ca39",
+  "year": 2021,
+  "coverAlbum": "https://m.media-amazon.com/images/I/71Te1V90YDL._UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "662ae3c3a9469e622467f96b"
+  },
+  "name": "With You-th",
+  "artist": "Twice",
+  "genre_id": "KPOP",
+  "year": 2024,
+  "coverAlbum": "https://upload.wikimedia.org/wikipedia/en/9/9b/Twice_-_With_You-th_cover_art.png"
+},
+{
+  "_id": {
+    "$oid": "662ae3c9a9469e622467f96c"
+  },
+  "name": "Between 1&2",
+  "artist": "Twice",
+  "genre_id": "KPOP",
+  "year": 2022,
+  "coverAlbum": "https://linkstorage.linkfire.com/medialinks/images/2baf2184-6275-41dc-85e3-88b37a5dcefa/artwork-440x440.jpg"
+},
+{
+  "_id": {
+    "$oid": "662ae3f2a9469e622467f96d"
+  },
+  "name": "I Never Die",
+  "artist": "(G)I-DLE",
+  "genre_id": "KPOP",
+  "year": 2021,
+  "coverAlbum": "https://akamai.sscdn.co/uploadfile/letras/albuns/4/2/f/1/1253971678106410.jpg"
+},
+{
+  "_id": {
+    "$oid": "662ae748a9469e622467f96e"
+  },
+  "name": "Unforgiven",
+  "artist": "Le Sserafim",
+  "genre_id": "KPOP",
+  "year": 2023,
+  "coverAlbum": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7"
+},
+{
+  "_id": {
+    "$oid": "662c604fb44b4dca53571214"
+  },
+  "name": "Eyes Wide Open",
+  "artist": "Twice",
+  "genre_id": "KPOP",
+  "year": 2020,
+  "coverAlbum": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Twice_-_Eyes_Wide_Open.png/220px-Twice_-_Eyes_Wide_Open.png"
+},
+{
+  "_id": {
+    "$oid": "666e3c07f7e133dd75f8621e"
+  },
+  "name": "17 is right here",
+  "artist": "Seventeen",
+  "year": "2024",
+  "coverAlbum": "https://i.scdn.co/image/ab67616d0000b2736c498180e56f57e7d7bcdb86"
+}]
