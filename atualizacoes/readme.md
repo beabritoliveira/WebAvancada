@@ -40,7 +40,7 @@ No Projeto existe uma pasta chamada MongoDB_ex...nela existe os arquivos JSON cr
 - Adicione as coleções que usamos "artist", "gmusic", "musicAlbum" e "user"
 - E importe os dados presentes na pasta MongoDB_ex
 
-Se esta etapa for feita da maneira correta, já podemos rodar nossa aplicação.
+Se estas etapas forem feitas da maneira correta, já podemos rodar nossa aplicação.
 
 ### Para Rodar o Servidor e o Projeto
 
